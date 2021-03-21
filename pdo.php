@@ -1,14 +1,9 @@
 <?php
-   /* $HOST = '127.0.0.1';
-    $PORT = 3306;
-    $DB_NAME = 'comments';
-    $DB_USER = 'root';
-    $DB_PASSWORD = '';
-    $conn = mysqli_connect($HOST, $DB_USER,$DB_PASSWORD,$DB_NAME,$PORT,); */
 
-    $server = 'localhost';
-    $user = 'root';
-    $pass ='';
-    $db = "comments";
-    $port = 3306;
+
+    $server = 'free-tier.gcp-us-central1.cockroachlabs.cloud';
+    $user = 'divya';
+    $pass ='abcdefghijkl';
+    $db = "muddy-possum";
+    $port = 26257;
     $conn = mysqli_connect($server,$user,$pass,$db,$port);
