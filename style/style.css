@@ -1,0 +1,180 @@
+.heading{
+    font-family: cooperplate;
+  font-size: 180px;
+  color: rgba(12, 12, 12, 0.932);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  margin-top: -80px;
+ 
+}
+
+.full{
+  height:100vh;
+  width:100vh;
+}
+.game{
+    
+position: absolute;
+margin-bottom: -300px;
+margin-left: 0%;
+width: 420px;
+font-size: 40px;
+letter-spacing: 15px;
+font-family: papyrus;
+font-weight: bold;
+}
+
+.game:hover{
+  background-color: #151961;
+  color:#fa7199;
+}
+
+#db #form {
+  width: 500px;
+  border: 2px solid black;
+  padding: 10px;
+  margin:0 auto;
+}
+
+.cards{
+    margin-top: 20%;
+
+}
+
+img{
+
+    width: 20px;
+    height: 460px;
+}
+
+.pa{
+    font-family: copperplate;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  letter-spacing: 5px;
+}
+
+.gam{
+  margin-top: 50px;
+}
+
+.teams{
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 50px;
+}
+
+
+
+
+.blinking{
+	animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px rgba(16,134,232,1);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 29px rgba(16,134,232,1);
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(16,134,232,1);
+  }
+}
+#particles-js{
+	width:100%;
+	height:100vh;
+	background:rgb(0, 0, 0);
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	
+}
+.particles-js-canvas-el{
+	position:absolute;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.btn-hover.color-3 {
+  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+
+.nav-wrapper{
+  background-color: #06093d;
+}
+
+.clr{
+  background-color: #06093d;
+  font-family: arial;
+}
+
